@@ -14,6 +14,9 @@ body {
 }
 
 button {
+    display: flex; /* Add flexbox to align text vertically */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
     background-color: #007bff;
     color: #fff;
     border: none;
