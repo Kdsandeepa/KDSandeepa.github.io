@@ -13,32 +13,20 @@ body {
     color: #fff;
 }
 
-button {
-    display: flex; /* Add flexbox to align text vertically */
+button, a.button {
+    display: flex; /* Add flexbox to align text vertically and horizontally */
     justify-content: center; /* Center text horizontally */
     align-items: center; /* Center text vertically */
     background-color: #007bff;
     color: #fff;
-    border: none;
     padding: 10px 20px;
     border-radius: 5px;
+    text-decoration: none; /* Ensure links have no underline */
+    border: none; /* Remove border for buttons */
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.5s;
 }
 
-button:hover {
-    background-color: #0056b3;
-}
-
-a.button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: background-color 0.3s;
-}
-
-a.button:hover {
+button:hover, a.button:hover {
     background-color: #0056b3;
 }
