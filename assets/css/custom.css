@@ -1,15 +1,6 @@
 body {
     background: linear-gradient(to right, #ff7e5f, #feb47b);
     color: #333;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Ensures the content is centered vertically */
-}
-
-#intro {
-    text-align: center;
 }
 
 #intro h1 {
@@ -22,18 +13,33 @@ body {
     color: #fff;
 }
 
-button, a.button {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+button {
     background-color: #007bff;
     color: #fff;
-    padding: 10px 20px;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    padding: 10px 10px;
     border-radius: 10px;
     cursor: pointer;
+    transition: background-color 1s;
+}
+
+button:hover {
+    background-color: #038cfc;
+}
+
+a.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 5px;
     text-decoration: none;
     transition: background-color 0.6s;
-    border: none;
+}
+
+a.button:hover {
+    background-color: #0056b3;
 }
 
 button:hover, a.button:hover {
