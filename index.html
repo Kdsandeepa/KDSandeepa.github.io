@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/custom.css" /> <!-- Add custom CSS file -->
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        .image.fit img {
+            transition: opacity 0.5s ease-in-out;
+        }
+    </style>
+    <script>
+        function swapImage(element, newSrc) {
+            var img = element.querySelector('img');
+            img.src = newSrc;
+        }
+    </script>
 </head>
 <body class="is-preload">
 
